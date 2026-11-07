@@ -1,0 +1,48 @@
+appId: org.idlinux.manager
+productName: Internet Downloader Linux
+copyright: Copyright © 2026 Sachin Dot (ID Linux modifications), MIT
+afterPack: scripts/check-torrent-package.mjs
+files:
+  - out/**
+  - LICENSE
+  - '!node_modules/koffi/{src,vendor,doc}/**'
+  - '!node_modules/koffi/build/koffi/!(linux_x64|linux_arm64)/**'
+  - '!node_modules/node-datachannel/**'
+  - '!node_modules/webrtc-polyfill/**'
+extraResources:
+  - from: extension/dist
+    to: extensions
+  - from: integration/native_host.py
+    to: native_host.py
+  - from: integration/video.py
+    to: video.py
+  - from: integration/vendor
+    to: vendor
+  - LICENSE
+linux:
+  target: deb
+  executableName: idlinux
+  maintainer: Sachin Dot
+  syncDesktopName: true
+  category: Network
+  mimeTypes: [x-scheme-handler/idlinux, x-scheme-handler/magnet, application/x-bittorrent, application/x-nzb]
+deb:
+  artifactName: ${name}_${version}_${arch}.${ext}
+  fpm:
+    - --depends
+    - python3
+    - --depends
+    - nodejs (>= 22)
+    - --depends
+    - ffmpeg
+    - --depends
+    - python3-gi
+    - --depends
+    - gir1.2-gtk-3.0
+    - integration/chromium.json=/etc/opt/edge/native-messaging-hosts/org.idlinux.manager.json
+    - integration/chromium.json=/etc/opt/chrome/native-messaging-hosts/org.idlinux.manager.json
+    - integration/chromium.json=/etc/chromium/native-messaging-hosts/org.idlinux.manager.json
+    - integration/org.idlinux.video.desktop=/usr/share/applications/org.idlinux.video.desktop
+    - integration/firefox.json=/usr/lib/mozilla/native-messaging-hosts/org.idlinux.manager.json
+npmRebuild: false
+publish: null

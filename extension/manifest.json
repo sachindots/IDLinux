@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "Internet Downloader Linux",
+  "short_name": "ID Linux",
+  "version": "1.0.4",
+  "description": "Capture downloads and send links, audio, and video to Internet Downloader Linux.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "ID Linux",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "alarms",
+    "downloads",
+    "contextMenus",
+    "cookies",
+    "storage",
+    "tabs",
+    "nativeMessaging",
+    "scripting",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuWXd38wLBNAtM/HozCxpDTq8AxeSkR4ZBNgGIFrtJew7y6YDzwcSv5Y6BIcgp3GCtWXLXsFQD5cnBiSDz0WKiKm6yDYpyTzpBdhOigiQ2mANlmWTAwseaG3fqfzbcx1PDcOBFb1iosYFtUjDyg88CNiXbokjV2pB7mNFHc9hbFqsJD4DMY0AjjrZFZumwgOjGqA4EbM9/HqEN4/7Hy81eImpi764Lf9Qs7f/DoeAAx1vAQj0slhXztgz1i34hYGgoumj2AApgOea1dhSVyeYQ+WKssjSGqWTk5rjrjiDkNMh/zmOXQBNdKWbp7YZ6PBadhFI4z6K9u2jw8jW3ijoSwIDAQAB",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "player.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ]
+}

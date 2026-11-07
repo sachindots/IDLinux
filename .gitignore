@@ -1,0 +1,21 @@
+node_modules
+dist
+out
+.DS_Store
+.eslintcache
+*.log*
+test-results
+playwright-report
+*.tsbuildinfo
+
+__pycache__/
+
+integration/vendor/
+
+# Local assistant configuration
+[Cc][Ll][Aa][Uu][Dd][Ee].md
+[Aa][Gg][Ee][Nn][Tt][Ss].md
+.claude/
+.codex/
+.github/instructions/
+.github/copilot-instructions.md

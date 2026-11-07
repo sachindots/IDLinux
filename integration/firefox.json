@@ -1,0 +1,9 @@
+{
+  "name": "org.idlinux.manager",
+  "description": "Internet Downloader Linux browser bridge",
+  "path": "/opt/Internet Downloader Linux/resources/native_host.py",
+  "type": "stdio",
+  "allowed_extensions": [
+    "extension@idlinux.local"
+  ]
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ID Linux Video
+Exec="/opt/Internet Downloader Linux/resources/video.py" --link %u
+Icon=idlinux
+NoDisplay=true
+Terminal=false
+MimeType=x-scheme-handler/idlinux-video;
