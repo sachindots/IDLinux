@@ -8,9 +8,9 @@ Obsidian / Silver pairs near-black surfaces and a silver folded-arrow logo with 
 
 ID Linux is an independent IDM-style download manager for Linux. Click a file in your browser, save a video from its player, or paste a link into the app. For large files, you can split a transfer across network interfaces and see what each connection contributes.
 
-[![Watch the ID Linux desktop showcase. A file enters the queue, then its transfer view shows download progress.](docs/brand/showcase.png)](docs/brand/showcase.mp4)
+[![Watch the ID Linux desktop showcase. Measured Wi-Fi and USB mobile speeds and the data delivered by each.](docs/brand/showcase.png)](docs/brand/showcase.mp4)
 
-[Watch the ID Linux source archive download (1080p, MP4)](docs/brand/showcase.mp4) · [View the design carousel](docs/brand/carousel.gif) · [Watch the original desktop recording](docs/brand/desktop-demo.mp4)
+[Watch Node.js download over Wi-Fi and USB mobile internet (1080p, MP4)](docs/brand/showcase.mp4) · [View the design carousel](docs/brand/carousel.gif) · [Watch the original desktop recording](docs/brand/desktop-demo.mp4)
 
 Individual slides · [Cover](docs/brand/cover.png) · [Transfer queue](docs/brand/queue.png) · [Browser video capture](docs/brand/video.png) · [Desktop transfer](docs/brand/transfers.png).
 
