@@ -10,7 +10,7 @@ ID Linux is an independent IDM-style download manager for Linux. Click a file in
 
 [![Watch the ID Linux desktop showcase. A file enters the queue, then its transfer view shows download progress.](docs/brand/showcase.png)](docs/brand/showcase.mp4)
 
-[Watch the showcase (8 seconds, MP4)](docs/brand/showcase.mp4) · [View the design carousel](docs/brand/carousel.gif) · [Watch the original desktop recording](docs/brand/desktop-demo.mp4)
+[Watch the ID Linux source archive download (1080p, MP4)](docs/brand/showcase.mp4) · [View the design carousel](docs/brand/carousel.gif) · [Watch the original desktop recording](docs/brand/desktop-demo.mp4)
 
 Individual slides · [Cover](docs/brand/cover.png) · [Transfer queue](docs/brand/queue.png) · [Browser video capture](docs/brand/video.png) · [Desktop transfer](docs/brand/transfers.png).
 
