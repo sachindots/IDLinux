@@ -2,17 +2,20 @@
 
 **From browser tab to Linux disk.**
 
-Maintained by Sachin Dot ([@sachindots](https://github.com/sachindots)).
+ID Linux is an independent IDM-style download manager for Linux, maintained by [Sachin Dot](https://github.com/sachindots). Capture downloads from your browser, choose a video quality, or use Wi-Fi and USB tethering together for a large transfer.
 
-Obsidian / Silver pairs near-black surfaces and a silver folded-arrow logo with IBM Plex Sans and IBM Plex Mono.
+## Product preview
 
-ID Linux is an independent IDM-style download manager for Linux. Click a file in your browser, save a video from its player, or paste a link into the app. For large files, you can split a transfer across network interfaces and see what each connection contributes.
+<a href="docs/brand/desktop-demo.mp4">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="docs/brand/desktop.png">
+    <img src="docs/brand/app-preview.webp" alt="ID Linux downloading Blender. The desktop transfer view shows combined speed, file progress, and separate Wi-Fi and mobile internet rows.">
+  </picture>
+</a>
 
-[![Watch the ID Linux desktop showcase. Measured Wi-Fi and USB mobile speeds and the data delivered by each.](docs/brand/showcase.png)](docs/brand/showcase.mp4)
+**[Watch the desktop app in action (14 seconds, 1080p)](docs/brand/desktop-demo.mp4)**
 
-[Watch the Blender download over Wi-Fi and USB mobile internet (2× telemetry replay, 1080p)](docs/brand/showcase.mp4) · [View the design carousel](docs/brand/carousel.gif) · [Watch the original desktop recording](docs/brand/desktop-demo.mp4)
-
-Individual slides · [Cover](docs/brand/cover.png) · [Transfer queue](docs/brand/queue.png) · [Browser video capture](docs/brand/video.png) · [Desktop transfer](docs/brand/transfers.png).
+[Combined-speed replay](docs/brand/showcase.mp4) · [Design carousel](docs/brand/carousel.gif) · [Installation](#install) · [Browser setup](#connect-a-browser)
 
 ## Install
 
